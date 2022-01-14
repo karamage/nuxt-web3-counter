@@ -1,5 +1,11 @@
 # nuxt-web3-counter
 
+This is a repository I created to study Web3.
+The value of the counter is written to the blockchain and displayed.
+
+We are using the following libraries
+- web3.js
+
 ## Build Setup
 
 ```bash
