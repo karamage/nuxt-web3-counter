@@ -17,5 +17,7 @@
     "web3": "^1.6.1",
     "webpack": "^4.46.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "truffle": "^5.4.29"
+  }
 }
