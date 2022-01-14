@@ -5,6 +5,7 @@ The value of the counter is written to the blockchain and displayed.
 
 We are using the following libraries
 - web3.js
+- Truffle
 
 ## Build Setup
 
