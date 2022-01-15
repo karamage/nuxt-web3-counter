@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 // contract/SingleNumRegister.sol
 pragma solidity ^0.8.11;
 
