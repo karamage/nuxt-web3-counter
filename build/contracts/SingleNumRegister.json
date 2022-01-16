@@ -23,7 +23,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -49,7 +50,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"num\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"storeNumbers\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"number\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SingleNumRegister.sol\":\"SingleNumRegister\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SingleNumRegister.sol\":{\"keccak256\":\"0xf3872e0702aa579d25254b2ef17577ee51e2088f860e7b0324f0eea4b51be670\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://258be31349889e5ec0f67ce0a5753cfff90d32c58fe2a30eede6496ca14cef45\",\"dweb:/ipfs/Qmd4NNVnsBMKUVcoz9n3RbjRtZKAAiDeWiSB7XEmcxVUXx\"]}},\"version\":1}",
@@ -2602,9 +2604,17 @@
     "name": "solc",
     "version": "0.8.11+commit.d7f03943.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x5b96Cc08358563C02067a2349154c665D825e8a0",
+      "transactionHash": "0xcfaddb743b7ce351d4047c1b8bc7070963a2d2cd37536ab0d35547cb109c8051"
+    }
+  },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-01-15T01:15:56.396Z",
+  "updatedAt": "2022-01-16T01:29:50.031Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
