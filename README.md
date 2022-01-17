@@ -3,6 +3,8 @@
 This is a repository I created to study Web3.
 The value of the counter is written to the blockchain and displayed.
 
+<img width="1260" alt="Screen Shot 2022-01-17 at 15 20 03" src="https://user-images.githubusercontent.com/330715/149721244-865d17fc-3301-4eb5-86e1-bd843f308e15.png">
+
 We are using the following libraries
 - web3.js
 - Truffle
