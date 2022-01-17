@@ -9,19 +9,23 @@ We are using the following libraries
 
 ## Build Setup
 
+This code will only work in a local environment.
+
+- install ganache https://trufflesuite.com/ganache/
+- Start ganache.
+
 ```bash
 # install dependencies
 $ yarn install
 
+# build smart contract
+$ yarn truffle build
+
+# deploy smart contract
+$ yarn truffle deploy
+
 # serve with hot reload at localhost:3000
 $ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
