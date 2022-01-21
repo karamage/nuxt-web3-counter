@@ -5,6 +5,11 @@
 This is a repository I created to study Web3.
 The value of the counter is written to the blockchain and displayed.
 
+https://nuxt-web3-counter.vercel.app/
+
+To run it, install MataMask and connect it to the Ropsten test network.
+To increment the counter, ETH for Ropsten will be charged as gas.
+
 <img width="1260" alt="Screen Shot 2022-01-17 at 15 20 03" src="https://user-images.githubusercontent.com/330715/149721244-865d17fc-3301-4eb5-86e1-bd843f308e15.png">
 
 We are using the following libraries
@@ -13,7 +18,7 @@ We are using the following libraries
 
 ## Build Setup
 
-This code will only work in a local environment.
+This code will work in a local environment.
 
 - install ganache https://trufflesuite.com/ganache/
 - Start ganache.
