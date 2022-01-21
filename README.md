@@ -1,5 +1,7 @@
 # nuxt-web3-counter
 
+## The tutorial code for developing a Web3 dapp
+
 This is a repository I created to study Web3.
 The value of the counter is written to the blockchain and displayed.
 
